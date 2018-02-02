@@ -1,0 +1,13 @@
+<p>
+  customers works!
+</p>
+<ul>
+  <li *ngFor="let customer of customersList">
+    {{customer.name}} | {{customer.email}}
+  </li>
+</ul>
+<span> Number of customers is : {{getCustomerCount()}}</span>
+<div>
+  <span>I am instance : {{instanceCode}}</span>
+  <span>masterName : {{masterName}}</span>
+</div>
